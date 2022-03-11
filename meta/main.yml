@@ -1,0 +1,61 @@
+---
+galaxy_info:
+  role_name: bravebrowser
+  author: ProfessorManhattan
+  description: Installs Brave Browser on nearly any OS
+  company: Megabyte Labs
+  issue_tracker_url: https://gitlab.com/megabyte-labs/ansible-roles/bravebrowser/-/issues
+  license: license (MIT)
+  min_ansible_version: 2.1
+  platforms:
+    - name: EL
+      versions:
+        - 8
+    - name: Debian
+      versions:
+        - bullseye
+        - buster
+    - name: Fedora
+      versions:
+        - 33
+        - 34
+        - 35
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+        - hirsute
+        - impish
+    - name: Windows
+      versions:
+        - all
+    - name: MacOSX
+      versions:
+        - 10.14
+  galaxy_tags:
+    - ansible
+    - bat
+    - brave
+    - browser
+    - chromium
+    - cryptocurrency
+    - install
+    - installdoc
+    - installdoctor
+    - internet
+    - macos
+    - mblabs
+    - megabytelabs
+    - molecule
+    - professormanhattan
+    - role
+    - tor
+    - ubuntu
+    - washingtondc
+    - windows
+  namespace: professormanhattan
+dependencies:
+  - role: professormanhattan.homebrew
+    when: ansible_os_family == 'Darwin'
+  - role: professormanhattan.snapd
+    when: ansible_os_family == 'Archlinux'
