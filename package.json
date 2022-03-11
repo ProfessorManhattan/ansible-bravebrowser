@@ -87,7 +87,10 @@
     },
     "slug": "bravebrowser",
     "subgroup": "role",
-    "title": "Brave Browser"
+    "title": "Brave Browser",
+    "github_id": "R_kgDOG-91cg",
+    "gitlab_project_id": "34403495",
+    "gitlab_group_id": "12261670"
   },
   "changelog": {
     "displayTypes": [

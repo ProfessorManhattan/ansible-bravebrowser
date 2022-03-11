@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   role_name: bravebrowser
+  namespace: professormanhattan
   author: ProfessorManhattan
   description: Installs Brave Browser on nearly any OS
   company: Megabyte Labs
@@ -53,7 +54,6 @@ galaxy_info:
     - ubuntu
     - washingtondc
     - windows
-  namespace: professormanhattan
 dependencies:
   - role: professormanhattan.homebrew
     when: ansible_os_family == 'Darwin'
