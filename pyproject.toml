@@ -47,7 +47,34 @@ description = "Installs Brave Browser on nearly any OS"
 documentation = "https://megabyte.space/docs/ansible/roles"
 homepage = "https://megabyte.space"
 include = ["CHANGELOG.md", "LICENSE"]
-keywords = [""]
+keywords = [
+  "ansible",
+  "ansible-role",
+  "archlinux",
+  "bat",
+  "brave",
+  "browser",
+  "centos",
+  "chromium",
+  "cryptocurrency",
+  "debian",
+  "doctor",
+  "fedora",
+  "install",
+  "installdoc",
+  "installdoctor",
+  "internet",
+  "macos",
+  "mblabs",
+  "megabytelabs",
+  "molecule",
+  "professormanhattan",
+  "role",
+  "tor",
+  "ubuntu",
+  "washingtondc",
+  "windows"
+]
 license = "MIT"
 name = "ansible-bravebrowser"
 readme = "README.md"
